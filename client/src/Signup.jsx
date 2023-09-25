@@ -4,7 +4,8 @@ import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
 
 function Signup(){
-    const [name, setName] = useState();
+    // here  I am creating variable for Storing the data
+    const [name, setName] = useState();// here "name" is state variable and "setName" is a method for updating the state variable("name")
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
     const navigate = useNavigate();
